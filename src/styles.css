@@ -1,0 +1,67 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .category {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .widgets {
+    margin-bottom: 10px;
+  }
+  
+  .widget {
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .widget button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-widget-form input {
+    margin: 5px 0;
+    padding: 5px;
+    width: 80%;
+  }
+  
+  .add-widget-form button {
+    margin-top: 5px;
+    padding: 5px;
+    width: 50%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
